@@ -2,47 +2,69 @@
 <html lang="en">
 <head>
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+<body background="morocco.png">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-                Rachel
+            <div class="col-md-6">
+                <div class="alert alert-light" role="alert">
+                    <h2>Rachel</h2>
+                </div>
             </div>
-            <div class="col-md-4">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                </ul>
+            <div class="col-md-6">
+                <div class="alert alert-light" role="alert">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <form>
+            <div class="col-lg-12">
+                <form action="action_page.php">
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder= "Write something.." rows="3"></textarea>
+                    </div>
+                    <div class="button">
+                        <input class="btn btn-primary" type="submit" value="Submit">
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>Copyright ©</p>
+            </div>
+        </div>  
+    </div>
 
+    <footer class="copyright">
+        <div class="alert alert-light" role="alert">
+            <p class="text-center">Copyright ©</p>
+        </div>
+    </footer>
 </body>
 </html>
