@@ -1,0 +1,206 @@
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+body, html {
+  background: url("./images/pic2.jpg");
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* .fullframe {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
+
+.logo-pic {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+    background-image: "./assets/images/morocco.png";
+    background-repeat: repeat;
+}
+
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: inline-block;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.name {
+    margin-left: 100px;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    padding: 20px;
+    margin: auto;
+    max-width: 960px;
+    float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 50px;
+    margin: auto;
+    max-width: 960px;
+}
+
+.main {
+  padding: 10px;
+  margin: 180px;
+  margin-top: 140px;
+  width: 960px;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.me {
+  padding-top: 35px;
+  border-bottom: #cccccc;
+  border-bottom-style: solid;
+  text-align: left;
+}
+
+.title {
+  width: 960px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  background-color: #ffffff;
+  display: block;
+  justify-content: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #dddddd; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+  
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.content {
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  background-color: #ffffff;
+  justify-content: center;
+}
+
+.column1 {
+  width: 50%;
+  height: 100px;
+  width: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.column2 {
+  width: 50%;
+  height: 100px;
+  width: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.lamp {
+  float: left;
+  display: inline;
+}
+
+.bar {
+  float: left;
+  display: inline;
+}
+
+.city {
+  float: left;
+  display: inline
+}
+
+.music {
+  display: inline;
+}
+
+.nyc {
+  float: left;
+}
+
+.text-block {
+  text-align: center;
+  bottom: 20px;
+  background-color: #4aaaa5;
+  color: white;
+  width: 15%;
+  height: 15px;
+}
+
+.contact {
+  width: 960px;
+  margin-left: 158px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+  .sticky-footer {bottom: 0;}
+}
