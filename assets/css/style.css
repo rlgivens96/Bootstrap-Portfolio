@@ -7,6 +7,7 @@
 }
 body, html {
   height: 100%;
+  background: url("../images/pinkbackground.png");
 }
 .wrapper {
   background: url("../images/pic2.jpg");
@@ -26,9 +27,8 @@ body, html {
 
 
 .logo-pic {
-    height: 100px;
-    width: 200px;
-    padding-left: 20px;
+  height: 100px;
+  width: 320px;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
   
 li a {
     display: inline-block;
-    color: #cccccc;
+    color: #FCE4EC;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,7 +49,7 @@ li a {
     text-align: center;
     padding: 30px;
     color: #ffffff;
-    background: #4aaaa5;
+    background: #FCE4EC;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -57,11 +57,10 @@ img {
     padding: 20px;
     margin: auto;
     max-width: 960px;
-    float: left;
 }
 
 h2 {
-    color: #4aaaa5;
+    color: #FCE4EC;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     padding: 50px;
@@ -80,7 +79,7 @@ h2 {
 
 .me {
   padding-top: 35px;
-  border-bottom: #cccccc;
+  border-bottom: #FCE4EC;
   border-bottom-style: solid;
   text-align: left;
 }
@@ -88,7 +87,7 @@ h2 {
 .title {
   width: 960px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #777777;
+  color: #9E9E9E;
   background-color: #ffffff;
   display: block;
   justify-content: center;
@@ -98,7 +97,7 @@ h2 {
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
-  border: 1px solid #dddddd; /* Gray border */
+  border: 1px solid #9E9E9E; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
@@ -108,7 +107,7 @@ input[type=text], select, textarea {
   
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4aaaa5;
+  background-color: #212121;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -118,7 +117,7 @@ input[type=submit] {
   
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #4aaaa5;
+  background-color: #212121;
 }
   
 /* Add a background color and some padding around the form */
@@ -126,6 +125,12 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.footerCon {
+  border-radius: 5px !important;
+  background-color: #424242 !important;
+  padding: 20px !important;
 }
 
 .content {
@@ -180,15 +185,15 @@ input[type=submit]:hover {
 .text-block {
   text-align: center;
   bottom: 20px;
-  background-color: #4aaaa5;
+  background-color: #FCE4EC;
   color: white;
   width: 15%;
   height: 15px;
 }
 
-.contact {
+#contact {
   width: 960px;
-  margin-left: 158px;
+  margin-left: 230px;
   margin-top: 100px;
   margin-bottom: 100px;
 }

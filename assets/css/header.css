@@ -1,31 +1,48 @@
-/*All the heading for the HTML*/
+/* All the heading for the HTML */
+.navbar {
+  height: 130px;
+  width: 100%;
+  padding-bottom: 20px;
+  text-align: center !important;
+  padding: 14px 16px !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  margin-bottom: 25px;
+}
+
+#navbarText {
+  padding-left: 790px !important;
+}
 
 .icon-bar {
+    overflow-x: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
     position: fixed;
+    padding-top: 12px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  
-  /* Style the icon bar links */
+
   .icon-bar a {
     display: block;
     text-align: center;
     padding: 16px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     color: white;
     font-size: 20px;
   }
   
-  /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
-    background-color: #000;
+    background-color: #9E9E9E;
   }
   
   .facebook {
-    background: #ff3399;
-    color: #ffb3d9;
+    background: #385898;
+    color: #1a57d1;
   }
   
   .twitter {
@@ -44,7 +61,7 @@
   }
 
   
-  /* Avatar Picture in Side Bar */
+  /* /* Avatar Picture in Side Bar */
   .avatar {
     vertical-align: middle;
     width: 209px;
